@@ -28,9 +28,8 @@ You can manage your ad preferences via the consent form provided within the App 
 
 Link to privacy policy of third-party service providers used by the App:
 
-Google Play Services
-
-AdMob
+* [Google Play Services](https://policies.google.com/privacy)
+* [AdMob](https://support.google.com/admob/answer/6128543?hl=tr)
 
 2. App Permissions
 To provide its core functionality, the App requires the following permissions:
