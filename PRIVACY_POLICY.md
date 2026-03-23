@@ -1,94 +1,195 @@
-Privacy Policy (Gizlilik Politikası)
-Last Updated: December 09, 2025
+# Privacy Policy / Gizlilik Politikası
 
-This Privacy Policy describes how NullSeed ("we," "us," or "our") collects, uses, and discloses information when you use our mobile application Shift Wallet / Mesai Kumbarası (the "App").
+**Last Updated / Son Güncelleme: March 23, 2026**
+
+---
+
+## 🇬🇧 English
+
+### Privacy Policy
+
+This Privacy Policy describes how **NullSeed** ("we," "us," or "our") collects, uses, and discloses information when you use our mobile application **Mesai Kumbarası / Shift Wallet** (the "App").
 
 By using the App, you agree to the collection and use of information in accordance with this policy.
 
-1. Information Collection and Use
-A. Personal Data (Local Storage)
-Our App is designed with privacy as a priority. We do not collect, transmit, or store your personal work data on our servers.
+---
 
-Shift Data: Your work hours, salary information, notes, and shift templates are stored locally on your device using a local database technology (Hive).
+### 1. Information We Collect
 
-Backups: If you use the "Backup & Restore" feature, the data is exported to a JSON file on your device. You are responsible for the security of this file if you choose to share it or store it on a cloud service.
+#### A. Personal Data (Local Storage Only)
 
-B. Non-Personal Data (Third-Party Services)
-We use third-party services that may collect information used to identify your device for functionality and advertising purposes.
+Our App is built with privacy as a core principle. **We do not collect, transmit, or store your personal work data on any server.**
 
-Google AdMob We use Google AdMob to display advertisements. AdMob may collect and use:
+All data created within the App — including:
+- Work shift records (start/end times, duration, notes)
+- Salary and wage settings (hourly, daily, or monthly rates)
+- Job profiles and their configurations
+- Overtime and multiplier settings
+- Shift templates and weekly schedules
 
-Device identifiers (e.g., Android Advertising ID).
+— is stored **exclusively on your device** using Hive, a local, offline NoSQL database. This data never leaves your device unless you explicitly choose to export it.
 
-Usage data and diagnostic information.
+#### B. Backup & Restore
 
-Cookies or similar technologies to serve personalized or non-personalized ads.
+The App offers a **Backup & Restore** feature that serializes your data into a JSON-formatted text string, which is then **copied to your device's clipboard**. You can paste and save this text wherever you choose (a notes app, email, cloud storage, etc.).
 
-You can manage your ad preferences via the consent form provided within the App (under Settings > Privacy) or through your device settings.
+> **Important:** We have no access to, and are not responsible for, any data you choose to store outside the App. The security of exported backup data is entirely your responsibility.
 
-Link to privacy policy of third-party service providers used by the App:
+#### C. Non-Personal Data (Third-Party Services)
 
-* [Google Play Services](https://policies.google.com/privacy)
-* [AdMob](https://support.google.com/admob/answer/6128543?hl=tr)
+We use **Google AdMob** to display advertisements. AdMob is a third-party service provided by Google LLC, and it may independently collect the following:
 
-2. App Permissions
+- Device identifiers (e.g., Android Advertising ID / IDFA)
+- Usage and diagnostic data
+- IP address (for regional ad targeting)
+- Information gathered via cookies or similar technologies to serve personalized or non-personalized ads
+
+We do not have direct access to this data. It is collected and processed by Google in accordance with their own privacy policies.
+
+**Google's Privacy Policy:** https://policies.google.com/privacy  
+**Google Play Services:** https://www.google.com/policies/privacy/
+
+---
+
+### 2. App Permissions
+
 To provide its core functionality, the App requires the following permissions:
 
-Notifications (POST_NOTIFICATIONS): Used to show the ongoing shift timer, break status, and shift completion alerts in the status bar.
+| Permission | Why It's Needed |
+|---|---|
+| **Notifications** (`POST_NOTIFICATIONS`) | To display the ongoing shift timer, break status, and shift-related alerts in your device's status bar. |
+| **Internet Access** (`INTERNET`) | Required solely to load advertisements via Google AdMob. **Your shift or personal data is never sent over the internet.** |
+| **Vibration** (`VIBRATE`) | Used for subtle tactile feedback during notifications. |
 
-Exact Alarms (SCHEDULE_EXACT_ALARM): Required to set precise reminders for the start and end of your shifts. This is a core feature of the App.
+> The App does **not** request access to your location, camera, microphone, contacts, or any other sensitive device resource.
 
-Internet Access (INTERNET): Required solely for loading advertisements via Google AdMob. Your shift data is not sent over the internet.
+---
 
-Run at Startup (RECEIVE_BOOT_COMPLETED): Used to reschedule your shift alarms if your device is restarted.
+### 3. GDPR & User Consent (EEA / UK Users)
 
-Vibration (VIBRATE): Used for tactile feedback during alarms and interactions.
+For users in the **European Economic Area (EEA)** or the **United Kingdom**, we comply with the **General Data Protection Regulation (GDPR)**.
 
-3. GDPR and User Consent
-For users in the European Economic Area (EEA) and the UK, we comply with the General Data Protection Regulation (GDPR). Upon first launch, or via the Settings menu, you will be presented with a consent form to choose whether you consent to personalized ads. You have the right to withdraw or modify this consent at any time.
+Because the App uses Google AdMob for advertising, it may process data for ad personalization. You have the right to:
 
-4. Children’s Privacy
-Our App is intended for general audiences (workforce tracking) and does not knowingly collect personally identifiable information from children under the age of 13.
+- **Accept** personalized ads (interest-based advertising)
+- **Decline** (non-personalized ads will still be shown)
+- **Change your preference** at any time through your device's ad settings
 
-5. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+To opt out of personalized ads on Android, go to: **Settings > Google > Ads > Opt out of Ads Personalization**
 
-6. Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: Email: nullseeddev@gmail.com
+---
 
-Gizlilik Politikası (Turkish)
-Son Güncelleme: 9 Aralık 2025
+### 4. Data Security
 
-Bu Gizlilik Politikası, NullSeed ("biz", "bizi" veya "bizim") tarafından geliştirilen Mesai Kumbarası / Shift Wallet ("Uygulama") mobil uygulamasını kullandığınızda bilgilerinizin nasıl toplandığını ve kullanıldığını açıklar.
+Since all your personal data is stored locally on your device, its security depends on your device's own security measures (screen lock, encryption, etc.). We implement no server-side data handling because we collect none.
 
-1. Bilgi Toplama ve Kullanım
-A. Kişisel Veriler (Yerel Depolama) Uygulamamız gizliliğinize öncelik verecek şekilde tasarlanmıştır. Kişisel iş verilerinizi sunucularımızda toplamıyoruz, iletmiyoruz veya saklamıyoruz.
+---
 
-Mesai Verileri: Çalışma saatleriniz, maaş ayarlarınız, notlarınız ve şablonlarınız cihazınızda yerel olarak (Hive veritabanı kullanılarak) saklanır.
+### 5. Children's Privacy
 
-Yedekleme: "Yedekle & Geri Yükle" özelliğini kullanırsanız, veriler cihazınıza bir JSON dosyası olarak aktarılır. Bu dosyayı bulut servislerinde saklamak kullanıcının sorumluluğundadır.
+This App is designed for working adults to track their shifts and earnings. It is not directed at children under the age of **13**. We do not knowingly collect personally identifiable information from children. If you believe a child has provided us with personal data, please contact us so we can investigate.
 
-B. Üçüncü Taraf Hizmetleri Uygulama içinde reklam gösterimi için Google AdMob kullanmaktayız. AdMob şunları toplayabilir:
+---
 
-Cihaz kimlikleri (Reklam Kimliği vb.).
+### 6. Changes to This Privacy Policy
 
-Kullanım verileri ve teşhis bilgileri.
+We may update this Privacy Policy periodically. When we do, we will update the "Last Updated" date at the top of this page. We encourage you to review this policy whenever you have concerns about your privacy.
 
-Kişiselleştirilmiş reklamlar sunmak için çerezler.
+---
 
-2. Uygulama İzinleri
-Uygulama, temel işlevlerini yerine getirebilmek için aşağıdaki izinlere ihtiyaç duyar:
+### 7. Contact Us
 
-Bildirimler: Mesai sayacını, mola durumunu ve hatırlatıcıları göstermek için kullanılır.
+**Email:** nullseeddev@gmail.com  
+**Developer:** NullSeed
 
-Tam Zamanlı Alarm (SCHEDULE_EXACT_ALARM): Mesai başlangıç ve bitiş saatlerinde size tam zamanında hatırlatma yapabilmek için gereklidir. Bu, uygulamanın temel bir işlevidir.
+---
+---
 
-İnternet: Sadece Google AdMob reklamlarını yüklemek için kullanılır. Mesai verileriniz internet üzerinden gönderilmez.
+## 🇹🇷 Türkçe
 
-Başlangıçta Çalışma: Cihazınız yeniden başlatıldığında kurulu alarmlarınızın silinmemesi ve yeniden ayarlanması için kullanılır.
+### Gizlilik Politikası
 
-3. GDPR ve Kullanıcı Rızası
-Avrupa Ekonomik Alanı (EEA) ve Birleşik Krallık'taki kullanıcılar için GDPR uyumluluğu sağlıyoruz. Ayarlar menüsü üzerinden reklam tercihlerinizi (kişiselleştirilmiş veya kişiselleştirilmemiş) dilediğiniz zaman değiştirebilirsiniz.
+Bu Gizlilik Politikası, **NullSeed** tarafından geliştirilen **Mesai Kumbarası / Shift Wallet** ("Uygulama") uygulamasını kullandığınızda bilgilerinizin nasıl ele alındığını açıklamaktadır.
 
-4. İletişim
-Gizlilik politikamızla ilgili sorularınız için bizimle iletişime geçebilirsiniz: E-posta: nullseeddev@gmail.com
+Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.
+
+---
+
+### 1. Topladığımız Bilgiler
+
+#### A. Kişisel Veriler (Yalnızca Yerel Depolama)
+
+Uygulamamız, gizliliğinizi temel bir ilke olarak benimseyerek tasarlanmıştır. **Kişisel iş verilerinizi hiçbir sunucuda toplamıyor, iletmiyor veya saklamıyoruz.**
+
+Uygulama içinde oluşturulan tüm veriler — bunlar arasında:
+- Vardiya kayıtları (başlangıç/bitiş saatleri, süre, notlar)
+- Maaş ve ücret ayarları (saatlik, günlük veya aylık)
+- İş profilleri ve yapılandırmaları
+- Fazla mesai ve katsayı ayarları
+- Vardiya şablonları ve haftalık programlar
+
+— **yalnızca cihazınızda**, çevrimdışı çalışan yerel bir veritabanı olan **Hive** aracılığıyla saklanır. Siz açıkça dışa aktarmayı tercih etmediğiniz sürece bu veriler hiçbir zaman cihazınızdan çıkmaz.
+
+#### B. Yedekleme ve Geri Yükleme
+
+Uygulama, **Yedekle & Geri Yükle** özelliği sunar. Bu özellik, verilerinizi bir JSON metin dizisine dönüştürerek **cihazınızın panosuna (clipboard) kopyalar**. Bu metni dilediğiniz yere (not uygulaması, e-posta, bulut depolama vb.) yapıştırıp kaydedebilirsiniz.
+
+> **Önemli:** Uygulama dışına aktardığınız yedek verisine erişimimiz yoktur ve bu verinin güvenliğinden tamamen siz sorumlusunuz.
+
+#### C. Üçüncü Taraf Hizmetleri
+
+Reklam gösterimi için **Google AdMob** kullanıyoruz. AdMob, Google LLC tarafından sağlanan bir üçüncü taraf hizmetidir ve şunları toplayabilir:
+
+- Cihaz tanımlayıcıları (Reklam Kimliği / IDFA vb.)
+- Kullanım ve tanılama verileri
+- IP adresi (bölgesel reklam hedeflemesi için)
+- Kişiselleştirilmiş reklamlar sunmak için çerezler veya benzer teknolojiler
+
+**Google Gizlilik Politikası:** https://policies.google.com/privacy
+
+---
+
+### 2. Uygulama İzinleri
+
+| İzin | Neden Gerekli? |
+|---|---|
+| **Bildirimler** (`POST_NOTIFICATIONS`) | Ekrana sabitlenmiş mesai sayacını, mola durumunu ve uyarıları göstermek için. |
+| **İnternet Erişimi** (`INTERNET`) | Yalnızca Google AdMob reklamlarını yüklemek için. **Mesai veya kişisel verileriniz internet üzerinden asla iletilmez.** |
+| **Titreşim** (`VIBRATE`) | Bildirimler sırasında hafif dokunsal geri bildirim için. |
+
+> Uygulama; konumunuza, kameranıza, mikrofonunuza veya kişilerinize erişim **talep etmemektedir**.
+
+---
+
+### 3. GDPR ve Kullanıcı Rızası (AEA / Birleşik Krallık Kullanıcıları)
+
+**Avrupa Ekonomik Alanı (AEA)** veya **Birleşik Krallık**'taki kullanıcılar için **GDPR** gerekliliklerine uymaktayız.
+
+Reklam tercihlerinizi dilediğiniz zaman cihaz ayarlarınızdan değiştirebilirsiniz.
+
+Android'de kişiselleştirilmiş reklamları kapatmak için: **Ayarlar > Google > Reklamlar > Reklam Kişiselleştirmeyi Devre Dışı Bırak**
+
+---
+
+### 4. Veri Güvenliği
+
+Tüm kişisel verileriniz cihazınızda yerel olarak depolandığından güvenliği, cihazınızın kendi güvenlik mekanizmalarına bağlıdır. Sunucu tarafında herhangi bir veri işlemi gerçekleştirmiyoruz.
+
+---
+
+### 5. Çocukların Gizliliği
+
+Bu uygulama çalışan yetişkinler için tasarlanmıştır. **13 yaşın altındaki** çocuklara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamıyoruz.
+
+---
+
+### 6. Bu Politikadaki Değişiklikler
+
+Gizlilik Politikamızı güncelleyebiliriz. Değişiklik yaptığımızda bu sayfanın üstündeki tarihi güncelleriz.
+
+---
+
+### 7. İletişim
+
+**E-posta:** nullseeddev@gmail.com  
+**Geliştirici:** NullSeed
