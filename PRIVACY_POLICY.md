@@ -49,6 +49,8 @@ We do not have direct access to this data. It is collected and processed by Goog
 **Google's Privacy Policy:** https://policies.google.com/privacy  
 **Google Play Services:** https://www.google.com/policies/privacy/
 
+We also use **Firebase Crashlytics and Google Analytics** to collect anonymous diagnostic data, crash reports, and usage statistics to improve application stability. These services collect non-personal device information and crash traces.
+
 ---
 
 ### 2. App Permissions
@@ -146,6 +148,8 @@ Reklam gösterimi için **Google AdMob** kullanıyoruz. AdMob, Google LLC taraf�
 - Kişiselleştirilmiş reklamlar sunmak için çerezler veya benzer teknolojiler
 
 **Google Gizlilik Politikası:** https://policies.google.com/privacy
+
+Ayrıca uygulamanın kararlılığını artırmak amacıyla anonim hata raporları ve kullanım istatistikleri toplamak için **Firebase Crashlytics ve Google Analytics** kullanıyoruz. Bu hizmetler, kişisel olmayan cihaz bilgilerini ve çökme kayıtlarını toplar.
 
 ---
 
