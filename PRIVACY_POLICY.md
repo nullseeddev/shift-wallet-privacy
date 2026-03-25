@@ -1,6 +1,6 @@
 # Privacy Policy / Gizlilik Politikası
 
-**Last Updated / Son Güncelleme: March 23, 2026**
+**Last Updated / Son Güncelleme: March 26, 2026**
 
 ---
 
